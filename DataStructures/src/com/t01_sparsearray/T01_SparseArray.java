@@ -1,4 +1,4 @@
-package com.t1_sparsearray;
+package com.t01_sparsearray;
 
 import java.io.*;
 
@@ -8,7 +8,7 @@ import java.io.*;
  * <p>
  * 稀疏数组
  */
-public class SparseArray {
+public class T01_SparseArray {
     public static void main(String[] args) throws IOException {
         // 创建一个原始的二维数组 11 * 11
         // 0: 表示没有棋子， 1 表示 黑子 2 表蓝子
@@ -95,7 +95,7 @@ public class SparseArray {
             row++;
         }
         in.close();
-        System.out.println("以写入:"+file);
+        System.out.println("已写入:"+file);
 
 
         System.out.println();
