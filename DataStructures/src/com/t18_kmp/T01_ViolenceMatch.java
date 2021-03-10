@@ -1,6 +1,6 @@
 package com.t18_kmp;
 
-public class ViolenceMatch {
+public class T01_ViolenceMatch {
 
     public static void main(String[] args) {
         //测试暴力匹配算法

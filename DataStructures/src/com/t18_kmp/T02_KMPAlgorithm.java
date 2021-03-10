@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @auther Ashen One
  * @Date 2021/3/10
  */
-public class KMPAlgorithm {
+public class T02_KMPAlgorithm {
     public static void main(String[] args) {
         String str1 = "BBC ABCDAB ABCDABCDABDE";
         String str2 = "ABCDABD";
