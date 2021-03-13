@@ -1,3 +1,5 @@
+package t000705;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -8,7 +10,7 @@ import java.util.LinkedList;
  * <p>
  * 不使用任何内建的哈希表库设计一个哈希集合（HashSet）。
  * <p>
- * 实现 MyHashSet 类：
+ * 实现 t000705.MyHashSet 类：
  * <p>
  * void add(key) 向哈希集合中插入值 key 。
  * bool contains(key) 返回哈希集合中是否存在这个值 key 。
@@ -17,13 +19,13 @@ import java.util.LinkedList;
  * 示例：
  * <p>
  * 输入：
- * ["MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
+ * ["t000705.MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
  * [[], [1], [2], [1], [3], [2], [2], [2], [2]]
  * 输出：
  * [null, null, null, true, false, null, true, null, false]
  * <p>
  * 解释：
- * MyHashSet myHashSet = new MyHashSet();
+ * t000705.MyHashSet myHashSet = new t000705.MyHashSet();
  * myHashSet.add(1);      // set = [1]
  * myHashSet.add(2);      // set = [1, 2]
  * myHashSet.contains(1); // 返回 True
@@ -105,8 +107,8 @@ class MyHashSet {
 }
 
 /**
- * Your MyHashSet object will be instantiated and called as such:
- * MyHashSet obj = new MyHashSet();
+ * Your t000705.MyHashSet object will be instantiated and called as such:
+ * t000705.MyHashSet obj = new t000705.MyHashSet();
  * obj.add(key);
  * obj.remove(key);
  * boolean param_3 = obj.contains(key);
